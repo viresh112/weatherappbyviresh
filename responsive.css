@@ -29,7 +29,7 @@ nav{
 @media screen and(max-width:450px){
       .navbar1{
             height: 50px;
-            width: 400px;
+            
             display: flex;
             justify-content: center;
         }
