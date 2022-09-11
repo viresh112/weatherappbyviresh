@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('bg.jpg'); 
+    /* background-color: black;*/
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+
+.app-main {
+    width: 70vh;
+    margin: 100px auto;
+    background-color: rgba(138, 138, 138, 0.3);
+    box-shadow: 0px 0px 5px white;
+    padding: 20px;
+    text-align: center;
+}
+.humidity{
+
+    width: 20vh;
+    margin: 10px auto;
+    background-color: rgba(219,112,147);
+    font-size: 1.2rem;
+    padding: 20px auto;
+    color: #ffffff99;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    }
+
+.wind{
+    
+    width: 20vh;
+    margin: 20px auto;
+    background-color: rgba(219,112,147);
+    padding: 20px auto;
+    border-radius: 5px;
+    color: #ffffff99;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    }
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(219,112,147);
+    border: none;
+    outline: none;
+    color: #ffffff99;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(219,112,147);
+}
+
+
+.weather-body {
+    display: none;
+    color: #ffffff99;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(219,112,147);
+    height: 40vh;
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(219,112,147.3);
+}
+
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
+
+
+    
